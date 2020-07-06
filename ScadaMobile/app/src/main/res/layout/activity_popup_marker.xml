@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B9D3EE"
+    tools:context=".PopupMarker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Tên trạm"/>
+        <EditText
+            android:id="@+id/edtTentram"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tentuyen"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="T.Quản Lý"/>
+        <EditText
+            android:id="@+id/edtTql"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tentuyen"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Trạng thái"/>
+        <EditText
+            android:id="@+id/edtTrangthai"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tentuyen"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="TG.Xảy ra sự cố"/>
+        <EditText
+            android:id="@+id/edtthoigiansuco"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tentuyen"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/edttongluuluong"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tentuyen"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:gravity="left"
+            android:layout_marginTop="2dp"
+            android:enabled="false"
+            android:paddingLeft="40dp"
+            android:inputType = "textMultiLine" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
